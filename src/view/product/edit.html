@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title> Edit </title>
+</head>
+<body>
+<h2> Edit product </h2>
+<a href="/products" style="text-decoration: none; color: black"> Back List Products </a>
+<form action="/edit-product" method="post">
+  <label>
+    <input type="text" name="id" value="{id}">
+  </label>
+  <label>
+    <input type="text" name="name" value="{name}">
+  </label>
+  <label>
+    <input type="text" name="price" value="{price}">
+  </label>
+  <label>
+    <input type="text" name="quantity" value="{quantity}">
+  </label>
+  <button> Save </button>
+</form>
+</body>
+</html>

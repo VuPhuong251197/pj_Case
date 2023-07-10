@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title> Add </title>
+</head>
+<body>
+<a href="/" style="text-decoration: none; color: black"> Home </a> || <a href="/products" style="text-decoration: none; color: black"> List Products </a>
+<h2> Add Product </h2>
+<form action="/products" method="post">
+  <table>
+    <thead>
+    <tr>
+      <th><label for="id"></label>
+        <input type="text" name="id" id="id" placeholder="ID"/>
+      </th>
+    </tr>
+    <tr>
+      <th><label for="name"></label>
+        <input type="text" name="name" id="name" placeholder="Name" />
+      </th>
+    </tr>
+    <tr>
+      <th><label for="price"></label>
+        <input type="text" name="price" id="price" placeholder="Price"/>
+      </th>
+    </tr>
+    <tr>
+      <th><label for="quantity"></label>
+        <input type="text" name="quantity" id="quantity" placeholder="Quantity"/>
+      </th>
+    </tr>
+    </thead>
+  </table>
+  <button> Add </button>
+</form>
+</body>
+</html>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> List Product </title>
+    <link rel="stylesheet" href="./../../css/list.css">
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <ul>
+                <li class="logo">
+                    <a href="#">
+                        <span class="icon"><img src="./../../img/logo.jpg" alt="logo" class="image"></span>
+                        <span class="text"></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="icon"><i class='bx bx-home'></i></span>
+                        <span class="text"> Home </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="icon"><i class='bx bx-user'></i></span>
+                        <span class="text"> Profile </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/products">
+                        <span class="icon"><i class='bx bx-add-to-queue'></i></span>
+                        <span class="text"> Products </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="icon"><i class='bx bx-cog'></i></span>
+                        <span class="text"> Setting</span>
+                    </a>
+                </li>
+                <div class="bottom">
+                    <li>
+                        <a href="/">
+                            <span class="icon"><i class='bx bx-log-out'></i></span>
+                            <span class="text"> Logout </span>
+                        </a>
+                    </li>
+                </div>
+            </ul>
+        </div>
+        <div class="navbar">
+            <div>
+                <input type="text" placeholder="Search Name...">
+            </div>
+        </div>
+    </div>
+    
+
+
+<!--<a href="/" style="text-decoration: none; color: black"> Home </a>-->
+<!--<hr>-->
+<!--<a href="/add-product" style="text-decoration: none; color: black"> Add Product </a> || <a href="/products" style="text-decoration: none; color: black"> List Products </a>-->
+<!--<br>-->
+<!--<br>-->
+<!--&lt;!&ndash; productRouter: /products -> productController.showAll() | method: GET &ndash;&gt;-->
+<!--<form>-->
+<!--  <label for="search"></label>-->
+<!--  <input type="search" name="keyword" id="search" value="{keyword}" placeholder="Search Product"/>-->
+<!--  <button> Search </button>-->
+<!--</form>-->
+<!-- <table class="table table-striped">
+    <thead>
+    <tr>
+        <th> ID</th>
+        <th> Name</th>
+        <th> Price</th>
+        <th> Quantity</th>
+        <th> Delete</th>
+        <th> Edit</th>
+    </tr>
+    </thead>
+    <tbody>
+    {list}
+    </tbody>
+</table>
+<script>
+    function sendFetchDelete(id) {
+        fetch(`http://localhost:8080/delete?id=${id}`)
+            .then(res => {
+                console.log(res);
+                alert('Delete Success!');
+                location.reload();
+            })
+    }
+</script> -->
+</body>
+</html>
